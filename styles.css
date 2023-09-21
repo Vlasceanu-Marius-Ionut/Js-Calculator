@@ -1,8 +1,9 @@
+/* styles.css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 0.8 ease-in-out;
+    transition: 0.8s ease-in-out;
 }
 
 body {
@@ -13,9 +14,9 @@ body {
     background-color: #333;
 }
 
-#calcontainer {
+#calccontainer {
     width: 20%;
-    height:70vh;
+    height: 70vh;
     background-color: #262525;
     border: black 6px solid;
 }
@@ -27,6 +28,7 @@ input {
     border: none;
     text-align: right;
     border: 5px solid black;
+    font-size: 30px;
 }
 input::placeholder {
     font-size: 30px;

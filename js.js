@@ -1,27 +1,25 @@
-'use strict'
 
-let calcontainer = document.getElementById('call');
-let buttons = document.querySelector('button');
+'use strict';
 
-let stringer = "";
-let arr = Array.from(buttons);
-arr.forEach(button =>{
-    button.addEventListener('click', (e) =>{
-        if(e.target.innerHTML == '='){
-            string = eval(string);
-            input.value = string;
-        }
+let calcInput = document.getElementById('calc');
+let buttons = document.querySelectorAll('button');
 
-        else if(e.target.innerHTML == 'Ac'){
-            string =""
-            input.value = string
+let inputString = "";
+
+buttons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        if (e.target.innerHTML === '=') {
+            inputString = eval(inputString);
+            calcInput.value = inputString;
+        } else if (e.target.innerHTML === 'AC') {
+            inputString = "";
+            calcInput.value = inputString;
+        } else if (e.target.innerHTML === 'Del') {
+            inputString = inputString.substring(0, inputString.length - 1);
+            calcInput.value = inputString;
+        } else {
+            inputString += e.target.innerHTML;
+            calcInput.value = inputString;
         }
-        else if(e.target.innerHTML == 'Del'){
-            string = string.substring(0, string.lenght-1);
-            input.value = string
-        }else {
-            string += e.tarrget.innerHTML;
-            input.value = string
-        }
-    })
-})
+    });
+});
