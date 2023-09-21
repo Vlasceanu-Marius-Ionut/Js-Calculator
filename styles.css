@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.8 ease-in-out;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+#calculatorpatrrat {
+    border: black solid 2px;
+    width: 15%;
+    height: auto;
+    background-color: gray;
+}
+
+#ecranul {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(77, 72, 72, 0.778);
+    border-bottom: solid black 2px;
+}
+
+#buttons {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
