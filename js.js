@@ -1,4 +1,3 @@
-
 'use strict';
 
 let calcInput = document.getElementById('calc');
