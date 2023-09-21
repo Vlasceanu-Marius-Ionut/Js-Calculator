@@ -19,7 +19,11 @@ butonie.addEventListener('click'),() =>{
         }
     }else if(buttonText === '+' || buttonText === '-' || buttonText === '*' || buttonText === '/'){
         operator = buttonText;
-    }else if( buttonText === '=')
+    }else if( buttonText === '='){
+        if(num1 !== '' && num2 !== '' && operator !== ''){
+            const rezultat = calculator(operator, parseFloat(num1), parseFloat(num2));
+        }ecran.textContent = `Rezultat:${rezultat}`
+    }
 }
 
 
