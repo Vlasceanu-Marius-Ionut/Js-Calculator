@@ -182,4 +182,26 @@ button {
         font-size: 25px;
     }
 }
+@media (max-width: 290px) {
+    #calccontainer {
+        width: 100%;
+        max-width: 300px;
+        height: 100%;
+    }
+    input {
+        font-size: 20px;
+    }
+    input::placeholder {
+        font-size: 16px;
+    }
+    button {
+        width: 35px;
+        height: 35px;
+        margin: 8px;
+        font-size: 15px;
+    }
+    .calc {
+        font-size: 25px;
+    }
+}
 
