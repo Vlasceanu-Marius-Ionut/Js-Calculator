@@ -141,6 +141,7 @@ button {
     #calccontainer {
         width: 100%;
         max-width: 300px;
+        height: 500px;
     }
     input {
         font-size: 20px;
@@ -149,8 +150,8 @@ button {
         font-size: 16px;
     }
     button {
-        width: 35px;
-        height: 36px;
+        width: 40px;
+        height: 45px;
         margin: 8px;
         font-size: 15px;
     }
