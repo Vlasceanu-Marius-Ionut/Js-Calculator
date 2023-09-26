@@ -159,10 +159,11 @@ button {
     }
 }
 
-@media (max-width: 368px) {
+@media (max-width: 378px) {
     #calccontainer {
         width: 100%;
         max-width: 300px;
+        height: 500px;
     }
     input {
         font-size: 20px;
@@ -171,8 +172,8 @@ button {
         font-size: 16px;
     }
     button {
-        width: 25px;
-        height: 25px;
+        width: 45px;
+        height: 55px;
         margin: 8px;
         font-size: 15px;
     }
