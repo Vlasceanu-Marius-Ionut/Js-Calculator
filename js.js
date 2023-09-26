@@ -2,7 +2,6 @@
 
 let calcInput = document.getElementById('calc');
 let buttons = document.querySelectorAll('button');
-
 let inputString = "";
 
 buttons.forEach(button => {
