@@ -1,1 +1,1 @@
-A simple, begginer calculator, learning purpouse..
+A simple, begginer calculator, learning purpouse.
